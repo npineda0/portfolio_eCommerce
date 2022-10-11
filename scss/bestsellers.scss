@@ -1,0 +1,35 @@
+#bestsellers {
+    .bestsellerImg {
+        height: 1132px;
+        width: 100%;
+        background: url("../images/bestSellers.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        text-align: right;
+
+        .sellerTxt {
+            font-size: 107px;
+            color: #DD7230;
+            font-family: "Arial Narrow";
+            position: absolute;
+            top: 26px;
+            left: 42px;
+        }
+
+        .sellerBtn {
+            width: 331px;
+            height: 67px;
+            background-color: #95A78D;
+            border-radius: 50px;
+            border: 1px solid #95A78D;
+            color: #fff;
+            font-family: 'Arial Narrow';
+            font-size: 30px;
+            margin-top: 998px;
+            margin-right: 5%;
+        }
+    }
+
+}

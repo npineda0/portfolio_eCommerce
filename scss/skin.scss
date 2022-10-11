@@ -1,0 +1,127 @@
+#skin {
+    .skinInfo {
+        font-size: 45px;
+        width: 898px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 154px;
+        margin-bottom: 111px;
+        color: #DD7230;
+        font-family: 'Arial Narrow';
+    }
+
+    //contains the row of 3 skincare products 
+    .skinRow {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 218px;
+
+        .skinProduct {
+            .skinImg1 {
+                height: 412px;
+                width: 412px;
+                background-image: url("../images/skinCare1.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                border-radius: 50px;
+                border: 1px solid #000;
+            }
+
+            .skinImg2 {
+                height: 412px;
+                width: 412px;
+                background-image: url("../images/skinCare2.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                border-radius: 50px;
+                border: 1px solid #000;
+            }
+
+            .skinImg3 {
+                height: 412px;
+                width: 412px;
+                background-image: url("../images/skinCare3.jpeg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                border-radius: 50px;
+                border: 1px solid #000;
+            }
+
+            .skinTxt {
+                text-align: center;
+                width: 412px;
+                margin-top: 30px;
+                color: #DD7230;
+                font-family: 'Arial Narrow';
+                font-size: 40px;
+
+                .skinName {
+                    font-weight: bold;
+                }
+
+                .skinPrice {
+                    font-weight: lighter;
+                }
+
+                .skinBtn {
+                    width: 225px;
+                    height: 65px;
+                    background-color: #95A78D;
+                    border-radius: 50px;
+                    border: 1px solid #95A78D;
+                    color: #fff;
+                    font-family: 'Arial Narrow';
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    //Shop all skin care & button subsection
+    .skinSubSection {
+        text-align: center;
+        margin-bottom: 190px;
+
+        .skinShop {
+            font-size: 70px;
+            color: #DD7230;
+            font-family: 'Arial Narrow';
+            text-align: center;
+        }
+
+        .btnDecor {
+            display: flex;
+
+            .lineLeft {
+                width: 40%;
+                position: relative;
+                top: 158px;
+                height: 2px;
+            }
+
+            .lineRight {
+                width: 40%;
+                position: relative;
+                top: 158px;
+                height: 2px;
+            }
+
+            .skinShopBtn {
+                width: 331px;
+                height: 67px;
+                margin: 0 auto;
+                margin-top: 122px;
+                background-color: #95A78D;
+                border-radius: 50px;
+                border: 1px solid #95A78D;
+                color: #fff;
+                font-family: 'Arial Narrow';
+                font-size: 30px;
+            }
+        }
+    }
+}

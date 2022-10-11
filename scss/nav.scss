@@ -1,0 +1,82 @@
+nav {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    //rgba to change color opacity & not text opacity
+    background: rgba(221, 114, 48, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+
+    .searchIcon {
+        height: 35px;
+        width: 35px;
+        background-image: url("../images/searchIcon.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+    }
+    
+    .leftNav {
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-family: 'Arial Narrow';
+            font-size: 30px;
+            margin-right: 70px;
+        }
+    }
+
+    .rightNav {
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-family: 'Arial Narrow';
+            font-size: 30px;
+            margin-left: 50px;
+        }
+    }
+
+    .logo {
+        height: 85px;
+        width: 85px;
+        //text-align: center;
+        background-image: url("../images/logo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    //group account and cart icon so logo is centered
+    .navIcons {
+        display: flex;
+        align-items: center;
+        
+        .accountIcon {
+            height: 35px;
+            width: 35px;
+            margin-right: 10px;
+            background-image: url("../images/accountIcon.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            cursor: pointer;
+        }
+    
+        .cartIcon {
+            height: 50px;
+            width: 50px;
+            background-image: url("../images/cartIcon.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            cursor: pointer;
+        }
+    }
+
+}

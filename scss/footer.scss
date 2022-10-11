@@ -1,0 +1,61 @@
+footer {
+    height: 90px;
+    background-color: #DD7230;
+    color: #fff;
+    font-family: 'Arial Narrow';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    .copyRight {
+        font-size: 25px;
+        font-weight: lighter;
+        margin-left: 10px;
+    }
+
+    .logo {
+        height: 85px;
+        width: 85px;
+        background-image: url("../images/logo.PNG");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footerIcons {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-right: 10px;
+        
+        .facebookIcon {
+            height: 55px;
+            width: 55px;
+            background-image: url("../images/facebook_w.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin-right: 20px;
+        }
+
+        .twitterIcon {
+            height: 55px;
+            width: 55px;
+            background-image: url("../images/twitter_w.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin-right: 20px;
+        }
+
+        .instagramIcon {
+            height: 55px;
+            width: 55px;
+            background-image: url("../images/instagram_w.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}

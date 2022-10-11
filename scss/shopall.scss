@@ -1,0 +1,46 @@
+#shopall {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    .shopAllTxt {
+        text-align: center;
+        margin: 0 auto;
+        font-family: 'Arial Narrow';
+        color: #DD7230;
+        width: 400px;
+
+        .shopAllHeader {
+            font-size: 70px;
+        }
+
+        .shopAllInfo {
+            font-size: 40px;
+            margin-top: 39px;
+            margin-bottom: 85px;
+        }
+
+        .shopAllBtn {
+            width: 331px;
+            height: 67px;
+            background-color: #95A78D;
+            border-radius: 50px;
+            border: 1px solid #95A78D;
+            color: #fff;
+            font-family: 'Arial Narrow';
+            font-size: 37px;
+            position: relative;
+            bottom: 10px;
+            cursor: pointer;                      
+        }
+    }
+
+    .shopAllImg {
+        height: 1132px;
+        width: 50%;
+        background-image: url("../images/shopAll.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}

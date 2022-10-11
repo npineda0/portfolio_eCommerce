@@ -1,0 +1,44 @@
+.hero {
+    height: 1000px;
+    width: auto;
+    margin-top: 80px;
+    background-image: url("../images/hero.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    //to move text with moving hero
+    position: relative;
+
+    .heroTxt {
+        position: absolute;
+        top: 150px;
+        left: 250px;
+        color: #DD7230;
+        font-family: "Arial Narrow";
+        text-shadow: -7px 5px 0px #FFFFFF;
+        font-weight: bold; 
+
+        //"FALL SALE! USE CODE: FALL22"
+        .heroSale {
+            font-size: 70px;
+            text-align: left;
+        }
+
+        //"SHOP BEST SELLERS"
+        .heroSellers {
+            font-size: 55px;
+        }
+
+        .heroBtn {
+            width: 350px;
+            height: 57px;
+            background-color: #95A78D;
+            border-radius: 50px;
+            border: 1px solid #95A78D;
+            color: #FFFFFF;
+            font-family: 'Arial Narrow';
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+}
